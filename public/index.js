@@ -7,10 +7,10 @@ import {
   seededRandomBool,
   transition,
 } from "./helpers/helpers.js";
-import { makeLander } from "./.js";
+import { makeLander } from "./lander/lander.js";
 import { makeToyLander } from "./toylander.js";
 import { makeStarfield } from "./starfield.js";
-import { makeControls } from "./controls.js";
+import { makeControls } from "./lander/controls.js";
 import { makeTerrain } from "./terrain.js";
 import { showStatsAndResetControl } from "./stats.js";
 import { manageInstructions } from "./instructions.js";
