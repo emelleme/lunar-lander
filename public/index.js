@@ -8,7 +8,7 @@ import {
   transition,
 } from "./helpers/helpers.js";
 import { makeLander } from "./lander/lander.js";
-import { makeToyLander } from "./toylander.js";
+import { makeToyLander } from "./lander/toylander.js";
 import { makeStarfield } from "./starfield.js";
 import { makeControls } from "./lander/controls.js";
 import { makeTerrain } from "./terrain.js";
