@@ -19,7 +19,7 @@ import {
   INTERVAL,
   TRANSITION_TO_SPACE,
 } from "../helpers/constants.js";
-import { makeLanderExplosion } from "./explosion.js";
+import { makeLanderExplosion } from "./lander/explosion.js";
 import { makeConfetti } from "./confetti.js";
 import { drawTrajectory } from "./trajectory.js";
 import {
