@@ -14,7 +14,7 @@ And thanks to [this guide](http://students.cs.ucl.ac.uk/schoolslab/projects/HT5/
 
 # Running
 
-Deployed to ehmorris.com via a git submodule.
+Deployed to lunaprise.pages.dev via a git submodule.
 
 See `launch.json` for running.
 

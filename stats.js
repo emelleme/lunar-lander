@@ -20,7 +20,7 @@ export const showStatsAndResetControl = (
 ${data.scoreForDisplay} point ${data.landed ? "landing" : "crash"}
 
 ${data.scoreDescription}
-https://ehmorris.com/lander/
+https://lunaprise.pages.dev/lander/
 
 ${data.speed}mph | ${data.angle}° | ${data.rotationsFormatted} flip${
     data.rotationsInt === 1 ? "" : "s"
