@@ -4,7 +4,7 @@ import {
   getVectorVelocity,
   transition,
 } from "./helpers/helpers.js";
-import { makeExplosion } from "./lander/explosion.js";
+import { makeExplosion } from "./explosion.js";
 import { LANDER_WIDTH, LANDER_HEIGHT } from "./helpers/constants.js";
 import { makeParticle } from "./particle.js";
 

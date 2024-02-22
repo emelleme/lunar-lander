@@ -7,16 +7,16 @@ import {
   seededRandomBool,
   transition,
 } from "./helpers/helpers.js";
-import { makeLander } from "./lander/lander.js";
-import { makeToyLander } from "./lander/toylander.js";
+import { makeLander } from "./.js";
+import { makeToyLander } from "./toylander.js";
 import { makeStarfield } from "./starfield.js";
-import { makeControls } from "./lander/controls.js";
+import { makeControls } from "./controls.js";
 import { makeTerrain } from "./terrain.js";
 import { showStatsAndResetControl } from "./stats.js";
 import { manageInstructions } from "./instructions.js";
 import { makeAudioManager } from "./helpers/audio.js";
 import { makeStateManager } from "./helpers/state.js";
-import { makeConfetti } from "./lander/confetti.js";
+import { makeConfetti } from "./confetti.js";
 import { makeTallyManger } from "./tally.js";
 import { makeAsteroid } from "./asteroids.js";
 import { makeSpaceAsteroid } from "./spaceAsteroids.js";
